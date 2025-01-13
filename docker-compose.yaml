@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   frontend:
-      image: shanuchaurasiya/todo-app:latest
+      image: shanuchaurasiya/todo-app
     container_name: todo-code
     ports:
      - "3000:3000"
