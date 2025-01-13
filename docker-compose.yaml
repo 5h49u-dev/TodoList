@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   frontend:
-    build:
-      context: .
+    web:
+      image: shanuchaurasiya/todo-app:latest.
     container_name: todo-code
     ports:
      - "3000:3000"
